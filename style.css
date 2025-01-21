@@ -41,10 +41,10 @@ header::before, header::after {
 
 header::before {
     left: 10px;
-    background-image: url('ninja-left.png'); /* Wgraj grafikę */
+    background-image: url('ninja lewo-Photoroom (1).jpg'); /* Grafika ninja po lewej */
 }
 
 header::after {
     right: 10px;
-    background-image: url('ninja-right.png'); /* Wgraj grafikę */
+    background-image: url('ninja prawo-Photoroom (1).png'); /* Grafika ninja po prawej */
 }
