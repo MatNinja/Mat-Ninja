@@ -27,6 +27,24 @@ header p {
     font-size: 1.2rem;
 }
 
+/* Pasek nawigacyjny */
+#navbar {
+    background-color: #ff4500; /* Pomarańczowy kolor tła */
+    padding: 15px;
+    text-align: center;
+}
+
+#navbar a {
+    color: white; /* Biały tekst */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#navbar a:hover {
+    text-decoration: underline; /* Podkreślenie po najechaniu */
+}
+
 /* Grafika ninja po bokach */
 header::before, header::after {
     content: '';
@@ -47,4 +65,17 @@ header::before {
 header::after {
     right: 10px;
     background-image: url('ninja prawo-Photoroom (1).png'); /* Grafika ninja po prawej */
+}
+
+/* Sekcje */
+section {
+    padding: 50px;
+    margin-top: 20px;
+    background-color: #333; /* Ciemne tło dla sekcji */
+    color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ff4500; /* Kolor tytułów w sekcjach */
 }
