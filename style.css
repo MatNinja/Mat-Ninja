@@ -41,7 +41,7 @@ header::before, header::after {
 
 header::before {
     left: 10px;
-    background-image: url('ninja lewo-Photoroom (1).jpg'); /* Grafika ninja po lewej */
+    background-image: url('ninja lewo-Photoroom (1).jpg'); /* Nowa grafika ninja po lewej */
 }
 
 header::after {
